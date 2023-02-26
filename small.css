@@ -1,0 +1,22 @@
+.cards-container {
+  grid-template-columns: 125px 125px 125px;
+  column-gap: 5px;
+  margin: 3rem auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+.restart-button {
+  width: 50% !important;
+}
+
+.flip-card-back {
+  top: -130px;
+}
+
+.flip-card-inner {
+  height: 14vh;
+}

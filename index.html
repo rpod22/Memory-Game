@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width: 576px)" href="small.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="game-start">
+      <button id="start-game" class="start-game">START GAME</button>
+    </div>
+    <div class="app-header">
+      <h2 id="timer">TIME: <span class="timer"></span></h2>
+      <button id="restart" class="restart-button">START OVER</button>
+    </div>
+  </header>
+  <main>
+    <div id="cards-container" class="cards-container">
+      <div id="flip-card1" class="card unclicked flip-card-1">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" id="backImg1" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" id="front" class="front-img" src="./images/sea-7403739_640.jpg" alt="">
+          </div>
+        </div>
+      </div>     
+      <div id="flip-card2" class="card unclicked flip-card-2">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/sea-7403739_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card3" class="card unclicked flip-card-3">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/bird-7765384_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card4" class="card unclicked flip-card-4">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/bird-7765384_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card5" class="card unclicked flip-card-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/corgi-6673343_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card6" class="card unclicked flip-card-6">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/corgi-6673343_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card7" class="card unclicked flip-card-7">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/gingerbread-1819596_640.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card8" class="card unclicked flip-card-8">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/gingerbread-1819596_640.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card9" class="card unclicked flip-card-9">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/moth-7734668_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card10" class="card unclicked flip-card-10">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/moth-7734668_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card11" class="card unclicked flip-card-11">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/night-sky-7733876_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="flip-card12" class="card unclicked flip-card-12">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="back-img" width="200" height="200" src="./images/game-card-back.png" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img width="200" height="200" class="front-img" src="./images/night-sky-7733876_640.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+  <span id="congrats" class="congrats">Congratulations! You won!</span>
+  <script src="main.js"></script>
+</body>
+</html>
