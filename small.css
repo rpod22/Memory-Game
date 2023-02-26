@@ -1,5 +1,6 @@
 .cards-container {
   grid-template-columns: 125px 125px 125px;
+  grid-template-rows: 115px 115px 115px;
   column-gap: 5px;
   margin: 3rem auto;
 }
